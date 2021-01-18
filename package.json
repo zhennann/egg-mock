@@ -1,5 +1,5 @@
 {
-  "name": "egg-mock",
+  "name": "@zhennann/egg-mock",
   "version": "4.0.1",
   "eggPlugin": {
     "name": "egg-mock"

@@ -6,6 +6,7 @@ const mock = require('./index').default;
 
 const options = {};
 if (process.env.EGG_BASE_DIR) options.baseDir = process.env.EGG_BASE_DIR;
+if (process.env.EGG_FRAMEWORK) options.framework = process.env.EGG_FRAMEWORK;
 
 // throw error when an egg plugin test is using bootstrap
 const pkgInfo = require(path.join(options.baseDir || process.cwd(), 'package.json'));
